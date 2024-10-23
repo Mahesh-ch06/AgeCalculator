@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age/DOB Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age/DOB Calculator</h1>
+        <label for="inputValue">Enter DOB or AGE (e.g., DOB=06-03-2005 or AGE=06-03-0019):</label>
+        <input type="text" id="inputValue" placeholder="DOB=DD-MM-YYYY or AGE=DD-MM-YYYY">
+        
+        <label for="refDate">Enter the reference date (e.g., 22-10-2024):</label>
+        <input type="text" id="refDate" placeholder="DD-MM-YYYY">
+        
+        <button onclick="processInput()">Calculate</button>
+        
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
