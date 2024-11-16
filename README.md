@@ -27,6 +27,7 @@ Enter DOB or AGE (e.g., DOB=06-03-2005 or AGE=19):
 DOB=06-03-2005
 Enter the reference date (e.g., 22-10-2024):
 22-10-2024
+```
 
 ## How It Works
 
